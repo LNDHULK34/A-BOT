@@ -1,0 +1,23 @@
+{
+  "name": "hama",
+  "version": "2.1.0",
+  "description": "hama",
+  "main": "Hama.js",
+  "scripts": {
+    "start": "node Hama.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "http": "^0.0.0",
+    "express": "^4.17.1",
+    "ytdl-core": "^3.4.2",
+    "canvas": "^2.6.1",
+    "hh-mm-ss": "^1.2.0",
+    "moment": "^2.29.1",
+    "quick.db": "^7.1.2",
+    "enmap": "^5.8.3"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

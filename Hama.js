@@ -8,7 +8,7 @@ const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const client = new Client({ disableMentions: "everyone" });
-const prefix = "."
+const prefix = "a+"
 client.login("Nzc0Njk5MzgwNzA3NDI2MzA0.X6blBQ.R9ghZ52Kb0CDkiHbeMomu8sodiQ")
 client.commands = new Collection();
 client.prefix = prefix;

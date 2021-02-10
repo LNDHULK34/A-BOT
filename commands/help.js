@@ -9,9 +9,9 @@ module.exports = {
       .setAuthor(message.author.username)
       .setDescription(
         ` 
-__**<a:emoji_47:801632577110409217> 𝗣𝘂𝗯𝗹𝗶𝗰 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**__
+__**🌍 𝗣𝘂𝗯𝗹𝗶𝗰 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**__
 ☆★☆★☆★☆★☆★
-__**<a:emoji_48:801632599080173578> 𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**__
+__**⚡ 𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**__
 
 [ 𝗜𝗡𝗩𝗜𝗧𝗘 ](https://discord.com/api/oauth2/authorize?client_id=774699380707426304&permissions=2146959191&scope=bot)[ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ](https://discord.gg/5fgFRytmCZ)
 
@@ -28,9 +28,9 @@ __**<a:emoji_48:801632599080173578> 𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗶𝗼𝗻 �
       msg.react("801632577110409217");
       msg.react("801632599080173578");
       let reaction1Filter = (reaction, user) =>
-        reaction.emoji.name === "emoji_47" && user.id === message.author.id;
+        reaction.emoji.name === "🌍" && user.id === message.author.id;
       let reaction2Filter = (reaction, user) =>
-        reaction.emoji.name === "emoji_48" && user.id === message.author.id;
+        reaction.emoji.name === "⚡" && user.id === message.author.id;
       let reaction3Filter = (reaction, user) =>
         reaction.emoji.name === "😊" && user.id === message.author.id;
       let reaction4Filter = (reaction, user) =>

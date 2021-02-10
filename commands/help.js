@@ -25,8 +25,8 @@ __**⚡ 𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱�
       .setTimestamp();
 
     message.channel.send(hama).then(msg => {
-      msg.react("801632577110409217");
-      msg.react("801632599080173578");
+      msg.react("🌍");
+      msg.react("⚡");
       let reaction1Filter = (reaction, user) =>
         reaction.emoji.name === "🌍" && user.id === message.author.id;
       let reaction2Filter = (reaction, user) =>

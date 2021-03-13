@@ -9,7 +9,7 @@ const { readdirSync } = require("fs");
 const { join } = require("path");
 const client = new Client({ disableMentions: "everyone" });
 const prefix = "a+"
-client.login("Nzc0Njk5MzgwNzA3NDI2MzA0.X6blBQ.MHtUekcU1KsQ3lsYW32MVQAWIIg")
+client.login("Nzc0Njk5MzgwNzA3NDI2MzA0.X6blBQ.0xpU8XCyHjUGYTdaIvRC80VMfGg")
 client.commands = new Collection();
 client.prefix = prefix;
 client.queue = new Map();
